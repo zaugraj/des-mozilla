@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Mozilla - Home</title>
+<title>Mozilla - Contact Us</title>
 <link href="css/main.css" type="text/css" rel="stylesheet" />
 </head>
 
@@ -36,8 +36,33 @@
                 </ul>
         </div><!-- /#sidebar -->
         <div id="content">
-        	<h1>Welcome!</h1>
-            <p>Blah Blah</p>
+        	<h1>Contact Us</h1>
+            <p>Fill out the form below to contact us</p>
+            <form>
+            	<div class="field">
+                	<label>First Name</label>
+                    <input type="text" name="fname" class="textfield"/>
+                </div>
+                <div class="field">
+                	<label>Last Name</label>
+                	<input type="text" name="lname" />
+                </div>
+                <div class="field">
+                	<label>Subject</label>
+                    <select name="subject">
+                    	<option>Request Info</option>
+                        <option>Sales</option>
+                        <option>General</option>
+                    </select>
+                </div>
+                <div class="field">
+                	<label>Your Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <div class="field">
+                	<input type="submit" value="Send Email" />
+                </div>
+            </form>
         </div><!-- /#content -->
         <div class="clear"></div>
     </div><!-- /#main -->
