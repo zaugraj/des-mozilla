@@ -4,6 +4,30 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Mozilla - About Us</title>
 <link href="css/main.css" type="text/css" rel="stylesheet" />
+<script>
+/*
+This is a multiline comment area*/
+//This is a single line comment
+//alert("This is a popup message");
+//Define a variable
+var fname = "Jeff";
+//alert(fname);
+var coins = 0;
+coins = coins + 10;
+coins = coins - 3;
+coins++;//add 1 to current value
+coins+=10;//add to current value
+coins*=2;//multiply current by 2
+//alert(coins);
+
+//Functions
+function givecoins() {
+	coins+=10;
+	alert("You now have this many coins: "+coins);
+}
+givecoins();
+givecoins();
+</script>
 </head>
 
 <body>
@@ -38,6 +62,7 @@
         <div id="content">
         	<h1>About Mozilla</h1>
             <p>About us page coming soon</p>
+            <input type="button" value="Give Coins" onclick="javascript:givecoins();" />
         </div><!-- /#content -->
         <div class="clear"></div>
     </div><!-- /#main -->
